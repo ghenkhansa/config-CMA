@@ -1,0 +1,37 @@
+proxies:
+- name: SG 2 Akrab
+  type: vmess
+  server: 104.17.3.81
+  port: 80
+  alterId: 0
+  cipher: auto
+  uuid: e11a65c3-92ca-4ab9-88cc-af91c2738540
+  udp: true
+  tls: false
+  servername: z4.evouch.tech
+  skip-cert-verify: true
+  network: ws
+  ws-opts:
+    path: /v2ray
+    headers:
+      Host: z4.evouch.tech
+    interface-name: wwan0
+#Expired On     : 2023-02-19
+- name: SG Akrab
+  type: vmess
+  server: 104.17.3.81
+  port: 80
+  alterId: 0
+  cipher: auto
+  uuid: e8940d5e-313e-4926-b733-ffcd5fe54e57
+  udp: true
+  tls: false
+  servername: vvip.evouch77.tech
+  skip-cert-verify: true
+  network: ws
+  ws-opts:
+    path: /v2ray
+    headers:
+      Host: vvip.evouch77.tech
+    interface-name: wwan0
+#Expired On     : 2023-01-27
