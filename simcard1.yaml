@@ -15,5 +15,5 @@ proxies:
     path: /v2ray
     headers:
       Host: z4.evouch.tech
-    interface-name: wwan0
+    interface-name: eth1
 #Expired On     : 2023-02-19
