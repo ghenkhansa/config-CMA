@@ -260,18 +260,26 @@ rule-providers:
     type: file
     behavior: domain
     path: "./rule_provider/basicads.yaml"
+    url: https://bit.ly/3XLz885
+    interval: 3600
   Personalads:
     type: file
     behavior: classical
     path: "./rule_provider/personalads.yaml"
+    url: https://bit.ly/3XGaru4
+    interval: 3600
   18+:
     type: file
     behavior: domain
     path: "./rule_provider/18+.yaml"
+    url: https://bit.ly/3RcgJQ5
+    interval: 3600
   Nsfw:
     type: file
     behavior: domain
     path: "./rule_provider/nsfw.yaml"
+    url: https://bit.ly/3wjOl4H
+    interval: 3600
   Game:
     type: http
     behavior: domain
