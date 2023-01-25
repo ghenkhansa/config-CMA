@@ -156,7 +156,7 @@ proxy-providers:
   SIMCARD:
     type: http
     path: ./proxy_provider/simcard.yaml
-    url: https://raw.githubusercontent.com/mwnsofficial/simaster-auto/main/proxy_provider/simcard.yaml
+    url: https://bit.ly/3iX9Bu8
     interval: 3600
     health-check:
       enable: true
