@@ -1,5 +1,5 @@
 proxies:
-- name: SG 2 Akrab
+- name: VPN SG 1
   type: vmess
   server: 104.17.3.81
   port: 80
@@ -17,7 +17,7 @@ proxies:
       Host: z4.evouch.tech
     interface-name: eth1
 #Expired On     : 2023-02-19
-- name: SG Akrab
+- name: VPN SG 2
   type: vmess
   server: 104.17.3.81
   port: 80
