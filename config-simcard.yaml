@@ -154,7 +154,7 @@ dns:
   - "+.cmbimg.com"
 proxy-providers:
   SIMCARD:
-    type: file
+    type: http
     path: ./proxy_provider/simcard.yaml
     url: https://raw.githubusercontent.com/mwnsofficial/simaster-auto/main/proxy_provider/simcard.yaml
     interval: 3600
@@ -248,21 +248,29 @@ proxy-groups:
   - REJECT
 rule-providers:
   Basicads:
-    type: file
+    type: http
     behavior: domain
     path: "./rule_provider/basicads.yaml"
+    url: https://bit.ly/3XLz885
+    interval: 3600
   Personalads:
-    type: file
+    type: http
     behavior: classical
     path: "./rule_provider/personalads.yaml"
+    url: https://bit.ly/3XGaru4
+    interval: 3600
   18+:
-    type: file
+    type: http
     behavior: domain
     path: "./rule_provider/18+.yaml"
+    url: https://bit.ly/3RcgJQ5
+    interval: 3600
   Nsfw:
-    type: file
+    type: http
     behavior: domain
     path: "./rule_provider/nsfw.yaml"
+    url: http://bit.ly/3R2mvUh
+    interval: 3600
   Game:
     type: http
     behavior: domain
@@ -288,10 +296,10 @@ rule-providers:
     url: https://bit.ly/3Wp85PH
     interval: 3600
   Bank:
-    type: file
+    type: http
     behavior: domain
     path: ./rule_provider/rule-bank.yaml
-    url: https://bit.ly/3hN7JUh
+    url: http://bit.ly/3JdwTq6
     interval: 3600
   Whatsapp:
     type: http
