@@ -23,7 +23,7 @@ proxies:
   port: 80
   alterId: 0
   cipher: auto
-  uuid: e8940d5e-313e-4926-b733-ffcd5fe54e57
+  uuid: 43a5e442-aa30-4e6f-8e2c-a6c8211c44f6
   udp: true
   tls: false
   servername: vvip.evouch77.tech
