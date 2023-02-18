@@ -17,21 +17,21 @@ proxies:
       Host: z4.evouch.tech
     interface-name: eth1
 #Expired On     : 2023-02-19
-- name: VPN SG 2
+- name: VPN ID
   type: vmess
   server: 104.17.3.81
   port: 80
   alterId: 0
   cipher: auto
-  uuid: 43a5e442-aa30-4e6f-8e2c-a6c8211c44f6
+  uuid: 4ffe0968-2a08-4a31-8238-94d49497329d
   udp: true
   tls: false
-  servername: vvip.evouch77.tech
+  servername: idn.evouch77.me
   skip-cert-verify: true
   network: ws
   ws-opts:
     path: /v2ray
     headers:
-      Host: vvip.evouch77.tech
-    interface-name: eth0.20
+      Host: idn.evouch77.me
+    interface-name: eth2
 #Expired On     : 2023-02-27
