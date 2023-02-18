@@ -1,19 +1,19 @@
 proxies:
-- name: Modem 2
+- name: VPN ID
   type: vmess
   server: 104.17.3.81
   port: 80
   alterId: 0
   cipher: auto
-  uuid: e11a65c3-92ca-4ab9-88cc-af91c2738540
+  uuid: 4ffe0968-2a08-4a31-8238-94d49497329d
   udp: true
   tls: false
-  servername: z4.evouch.tech
+  servername: idn.evouch77.me
   skip-cert-verify: true
   network: ws
   ws-opts:
     path: /v2ray
     headers:
-      Host: z4.evouch.tech
-    interface-name: erh0.20
-#Expired On     : 2023-02-19
+      Host: idn.evouch77.me
+    interface-name: eth2
+#Expired On     : 2023-02-27
