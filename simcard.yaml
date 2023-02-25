@@ -16,7 +16,7 @@ proxies:
     headers:
       Host: z4.evouch.tech
     interface-name: eth1
-#Expired On     : 2023-02-19
+#Expired On     : 2023-03-19
 - name: VPN SG WORRY
   type: vmess
   server: 104.17.3.81
@@ -34,7 +34,21 @@ proxies:
     headers:
       Host: w.evouch77.live
     interface-name: eth2
-#Expired On     : 2023-02-27
+#Expired On     : 2023-03-27
+- name: SG GO
+  server: 104.17.3.81
+  port: 2096
+  type: trojan
+  password: user2522
+  network: ws
+  sni: z1.evouch.tech
+  skip-cert-verify: true
+  udp: true
+  ws-opts:
+    path: /PATH
+    headers:
+        Host: z1.evouch.tech
+#Expired On     : 2023-03-27
 - name: VPN ID
   type: vmess
   server: 104.17.3.81
@@ -52,4 +66,4 @@ proxies:
     headers:
       Host: idn.evouch77.me
     interface-name: eth2
-#Expired On     : 2023-3-27
+#Expired On     : 2023-2-27
