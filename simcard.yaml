@@ -35,3 +35,75 @@ proxies:
       Host: idn.evouch77.me
     interface-name: eth2
 #Expired On     : 2023-02-27
+- name: VPN ID
+  type: vmess
+  server: 104.17.3.81
+  port: 80
+  alterId: 0
+  cipher: auto
+  uuid: 4ffe0968-2a08-4a31-8238-94d49497329d
+  udp: true
+  tls: false
+  servername: idn.evouch77.me
+  skip-cert-verify: true
+  network: ws
+  ws-opts:
+    path: /v2ray
+    headers:
+      Host: idn.evouch77.me
+    interface-name: eth2
+#Expired On     : 2023-02-27
+- name: VPN SG WORRY
+  type: vmess
+  server: 104.17.3.81
+  port: 80
+  alterId: 0
+  cipher: auto
+  uuid: e40b2de3-b829-4591-a7b6-99d1913f3246
+  udp: true
+  tls: false
+  servername: w.evouch77.live
+  skip-cert-verify: true
+  network: ws
+  ws-opts:
+    path: /worryfree
+    headers:
+      Host: w.evouch77.live
+    interface-name: eth2
+#Expired On     : 2023-02-27
+- name: VPN ID
+  type: vmess
+  server: 104.17.3.81
+  port: 80
+  alterId: 0
+  cipher: auto
+  uuid: 4ffe0968-2a08-4a31-8238-94d49497329d
+  udp: true
+  tls: false
+  servername: idn.evouch77.me
+  skip-cert-verify: true
+  network: ws
+  ws-opts:
+    path: /v2ray
+    headers:
+      Host: idn.evouch77.me
+    interface-name: eth2
+#Expired On     : 2023-3-27
+- name: VPN ID
+  type: vmess
+  server: 104.17.3.81
+  port: 80
+  alterId: 0
+  cipher: auto
+  uuid: 4ffe0968-2a08-4a31-8238-94d49497329d
+  udp: true
+  tls: false
+  servername: idn.evouch77.me
+  skip-cert-verify: true
+  network: ws
+  ws-opts:
+    path: /v2ray
+    headers:
+      Host: idn.evouch77.me
+    interface-name: eth2
+#Expired On     : 2023-02-27
