@@ -36,7 +36,7 @@ proxies:
     interface-name: eth2
 #Expired On     : 2023-03-27
 - name: SG GO
-  server: blog.midtrans.com
+  server: 104.17.3.81
   port: 2096
   type: trojan
   password: user2522
@@ -45,7 +45,7 @@ proxies:
   skip-cert-verify: true
   udp: true
   ws-opts:
-    path: /PATH
+    path: /trojango
     headers:
         Host: z1.evouch.tech
 #Expired On     : 2023-03-27
