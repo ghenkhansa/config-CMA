@@ -55,7 +55,7 @@ proxies:
   port: 80
   alterId: 0
   cipher: auto
-  uuid: 4ffe0968-2a08-4a31-8238-94d49497329d
+  uuid: 9f52ffae-41e1-4097-9e90-f25bffc6f009
   udp: true
   tls: false
   servername: idn.evouch77.me
