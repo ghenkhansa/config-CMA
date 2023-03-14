@@ -5,10 +5,10 @@ proxies:
   port: 80
   alterId: 0
   cipher: auto
-  uuid: e11a65c3-92ca-4ab9-88cc-af91c2738540
+  uuid: a6cc970f-8bc9-427a-ad72-2ba72f8a7a7a
   udp: true
   tls: false
-  servername: z4.evouch.tech
+  servername: http://vvip.evouch77.me
   skip-cert-verify: true
   network: ws
   ws-opts:
