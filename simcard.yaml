@@ -1,22 +1,4 @@
 proxies:
-- name: VPN SG 1
-  type: vmess
-  server: 104.17.3.81
-  port: 80
-  alterId: 0
-  cipher: auto
-  uuid: a6cc970f-8bc9-427a-ad72-2ba72f8a7a7a
-  udp: true
-  tls: false
-  servername: vvip.evouch77.me
-  skip-cert-verify: true
-  network: ws
-  ws-opts:
-    path: /v2ray
-    headers:
-      Host: vvip.evouch77.me
-    interface-name: eth1
-#Expired On     : 2023-03-19
 - name: VPN SG WORRY
   type: vmess
   server: 104.17.3.81
