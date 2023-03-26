@@ -16,7 +16,7 @@ proxies:
     headers:
       Host: w.evouch77.live
     interface-name: eth2
-#Expired On     : 2023-03-27
+#Expired On     : 2023-04-26
 - name: SG GO
   server: 104.17.3.81
   port: 2096
