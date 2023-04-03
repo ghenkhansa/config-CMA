@@ -31,21 +31,3 @@ proxies:
     headers:
         Host: z1.evouch.tech
 #Expired On     : 2023-03-27
-- name: VPN ID
-  type: vmess
-  server: 104.17.3.81
-  port: 80
-  alterId: 0
-  cipher: auto
-  uuid: 9f52ffae-41e1-4097-9e90-f25bffc6f009
-  udp: true
-  tls: false
-  servername: idn.evouch77.me
-  skip-cert-verify: true
-  network: ws
-  ws-opts:
-    path: /v2ray
-    headers:
-      Host: idn.evouch77.me
-    interface-name: eth2
-#Expired On     : 2023-2-27
