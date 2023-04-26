@@ -25,13 +25,13 @@ proxies:
   uuid: e377fdad-8ab8-4bd4-acee-80663a00abea
   udp: true
   tls: false
-  servername: idn.evouch77.me
+  servername: idn.ev77.me
   skip-cert-verify: true
   network: ws
   ws-opts:
     path: /v2ray
     headers:
-      Host: idn.evouch77.me
+      Host: idn.ev77.me
     interface-name: eth2
 #Expired On     : 2023-05-20
 - name: SG GO
