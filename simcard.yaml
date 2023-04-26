@@ -8,13 +8,13 @@ proxies:
   uuid: e40b2de3-b829-4591-a7b6-99d1913f3246
   udp: true
   tls: false
-  servername: w.evouch77.live
+  servername: w.eo7.tech
   skip-cert-verify: true
   network: ws
   ws-opts:
     path: /worryfree
     headers:
-      Host: w.evouch77.live
+      Host: w.eo7.tech
     interface-name: eth2
 - name: VPN ID
   type: vmess
@@ -40,11 +40,11 @@ proxies:
   type: trojan
   password: user2522
   network: ws
-  sni: z1.evouch.tech
+  sni: z1.eo7.tech
   skip-cert-verify: true
   udp: true
   ws-opts:
     path: /trojango
     headers:
-        Host: z1.evouch.tech
+        Host: z1.eo7.tech
 #Expired On     : 2023-03-27
