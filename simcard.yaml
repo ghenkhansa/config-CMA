@@ -5,16 +5,16 @@ proxies:
   port: 80
   alterId: 0
   cipher: auto
-  uuid: 
+  uuid: 8bad7810-e90c-11ed-b435-205c6d5f5d78
   udp: true
   tls: false
-  servername: w.eo7.tech
+  servername: sg-1.0rd.net
   skip-cert-verify: true
   network: ws
   ws-opts:
-    path: /worryfree
+    path: /v1mz43e2
     headers:
-      Host: w.eo7.tech
+      Host: sg-1.0rd.net
     interface-name: eth2
 - name: VPN ID
   type: vmess
