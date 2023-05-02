@@ -5,7 +5,7 @@ proxies:
   port: 80
   alterId: 0
   cipher: auto
-  uuid: 7f48e0a3-1f69-4a19-a3cd-2c1ee8dea554
+  uuid: 
   udp: true
   tls: false
   servername: w.eo7.tech
