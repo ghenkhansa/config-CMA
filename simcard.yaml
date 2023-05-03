@@ -16,6 +16,23 @@ proxies:
     headers:
       Host: media.fcgk35-1.fna.whatsapp.net
     interface-name: eth2
+- name: SG SSHMAX
+  type: vmess
+  server: 104.17.3.81
+  port: 80
+  alterId: 0
+  cipher: auto
+  uuid: 29ac6a27-6cd0-4a51-bacb-7fff859def37
+  udp: true
+  tls: false
+  servername: sg-v.sshmax.xyz
+  skip-cert-verify: true
+  network: ws
+  ws-opts:
+    path: /vmess
+    headers:
+      Host: sg-v.sshmax.xyz
+    interface-name: eth2
 - name: VPN SSHKIT
   type: vmess
   server: 104.17.3.81
