@@ -22,16 +22,16 @@ proxies:
   port: 80
   alterId: 0
   cipher: auto
-  uuid: 29ac6a27-6cd0-4a51-bacb-7fff859def37
+  uuid: 38710460-ef25-11ed-b237-205c6d5f5d78
   udp: true
   tls: false
-  servername: sg-v.sshmax.xyz
+  servername: sg-3.0rd.net
   skip-cert-verify: true
   network: ws
   ws-opts:
-    path: /vmess
+    path: /nsvj7e36
     headers:
-      Host: sg-v.sshmax.xyz
+      Host: sg-3.0rd.net
     interface-name: eth2
 - name: VPN SSHKIT
   type: vmess
