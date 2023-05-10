@@ -70,7 +70,7 @@ proxies:
 #Expired On     : 2023-05-20
 - name: SG GO
   server: 104.17.3.81
-  port: 2096
+  port: 443
   type: trojan
   password: 00710800-ef26-11ed-b530-1239d0255272
   network: ws
