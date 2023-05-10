@@ -69,16 +69,16 @@ proxies:
     interface-name: eth2
 #Expired On     : 2023-05-20
 - name: SG GO
-  server: sg-2.test3.net
+  server: www.udemy.com
   port: 443
   type: trojan
-  password: 00710800-ef26-11ed-b530-1239d0255272
+  password: 89b28d80-ef29-11ed-a2a0-1239d0255272
   network: ws
-  sni: media.fcgk35-1.fna.whatsapp.net
+  sni: id-1.test3.net
   skip-cert-verify: true
   udp: true
   ws-opts:
     path: /howdy
     headers:
-        Host: media.fcgk35-1.fna.whatsapp.net
+        Host: id-1.test3.net
 #Expired On     : 2023-03-27
