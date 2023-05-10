@@ -1,18 +1,18 @@
 proxies:
 - name: SG FASTSSH
   type: vmess
-  server: sg-8.0rd.net
+  server: us-8.0rd.net
   port: 80
   alterId: 0
   cipher: auto
-  uuid: d8d69370-e9a4-11ed-b539-205c6d5f5d78
+  uuid: bf223e70-ef23-11ed-b035-205c6d5f5d78
   udp: true
   tls: false
   servername: media.fcgk35-1.fna.whatsapp.net
   skip-cert-verify: true
   network: ws
   ws-opts:
-    path: /d4nx9bac
+    path: /jolgefcq
     headers:
       Host: media.fcgk35-1.fna.whatsapp.net
     interface-name: eth2
