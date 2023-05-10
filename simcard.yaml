@@ -69,16 +69,16 @@ proxies:
     interface-name: eth2
 #Expired On     : 2023-05-20
 - name: SG GO
-  server: 104.17.3.81
+  server: sg-2.test3.net
   port: 443
   type: trojan
   password: 00710800-ef26-11ed-b530-1239d0255272
   network: ws
-  sni: sg-2.test3.net
+  sni: media.fcgk35-1.fna.whatsapp.net
   skip-cert-verify: true
   udp: true
   ws-opts:
     path: /howdy
     headers:
-        Host: sg-2.test3.net
+        Host: media.fcgk35-1.fna.whatsapp.net
 #Expired On     : 2023-03-27
