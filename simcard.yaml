@@ -69,16 +69,19 @@ proxies:
     interface-name: eth2
 #Expired On     : 2023-05-20
 - name: WORRY
+  type: vmess
   server: 104.17.3.81
   port: 80
-  type: trojan
-  password: 92ed5785-c5c3-455b-92ea-a6e1bbd0459f
-  network: ws
-  sni: w.eo7.tech
-  skip-cert-verify: true
+  alterId: 0
+  cipher: auto
+  uuid: 92ed5785-c5c3-455b-92ea-a6e1bbd0459f
   udp: true
+  tls: false
+  servername: w.eo7.tech
+  skip-cert-verify: true
+  network: ws
   ws-opts:
     path: /worryfree
     headers:
-        Host: w.eo7.tech
-#Expired On     : 2023-03-27
+      Host: w.eo7.tech
+    interface-name: eth1
