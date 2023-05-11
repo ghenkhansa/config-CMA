@@ -68,17 +68,17 @@ proxies:
       Host: idn.ev77.me
     interface-name: eth2
 #Expired On     : 2023-05-20
-- name: SG GO
-  server: www.udemy.com
-  port: 443
+- name: WORRY
+  server: 104.17.3.81
+  port: 80
   type: trojan
-  password: 89b28d80-ef29-11ed-a2a0-1239d0255272
+  password: 92ed5785-c5c3-455b-92ea-a6e1bbd0459f
   network: ws
-  sni: id-1.test3.net
+  sni: w.eo7.tech
   skip-cert-verify: true
   udp: true
   ws-opts:
-    path: /howdy
+    path: /worryfree
     headers:
-        Host: id-1.test3.net
+        Host: w.eo7.tech
 #Expired On     : 2023-03-27
