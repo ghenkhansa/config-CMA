@@ -1,38 +1,6 @@
+
 proxies:
-- name: SG FASTSSH
-  type: vmess
-  server: us-8.0rd.net
-  port: 80
-  alterId: 0
-  cipher: auto
-  uuid: bf223e70-ef23-11ed-b035-205c6d5f5d78
-  udp: true
-  tls: false
-  servername: media.fcgk35-1.fna.whatsapp.net
-  skip-cert-verify: true
-  network: ws
-  ws-opts:
-    path: /jolgefcq
-    headers:
-      Host: media.fcgk35-1.fna.whatsapp.net
-    interface-name: eth2
-- name: SG SSHMAX
-  type: vmess
-  server: 104.17.3.81
-  port: 80
-  alterId: 0
-  cipher: auto
-  uuid: 38710460-ef25-11ed-b237-205c6d5f5d78
-  udp: true
-  tls: false
-  servername: sg-3.0rd.net
-  skip-cert-verify: true
-  network: ws
-  ws-opts:
-    path: /nsvj7e36
-    headers:
-      Host: sg-3.0rd.net
-    interface-name: eth2
+
 - name: VPN SSHKIT
   type: vmess
   server: 104.17.3.81
