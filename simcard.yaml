@@ -18,22 +18,22 @@ proxies:
     headers:
       Host: sg3-v2ray.sshkit.org
     interface-name: eth2
-- name: VPN ID
+- name: VPN SG FAST
   type: vmess
   server: 104.17.3.81
   port: 80
   alterId: 0
   cipher: auto
-  uuid: e377fdad-8ab8-4bd4-acee-80663a00abea
+  uuid: 2cc4c960-f6cb-11ed-b138-205c6d5f5d78
   udp: true
   tls: false
-  servername: idn.ev77.me
+  servername: sg-4.0rd.net
   skip-cert-verify: true
   network: ws
   ws-opts:
-    path: /v2ray
+    path: /bj9tx314
     headers:
-      Host: idn.ev77.me
+      Host: sg-4.0rd.net
     interface-name: eth2
 #Expired On     : 2023-05-20
 - name: WORRY
