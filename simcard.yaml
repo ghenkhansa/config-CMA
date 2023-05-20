@@ -35,21 +35,22 @@ proxies:
     headers:
       Host: sg-4.0rd.net
     interface-name: eth2
-#Expired On     : 2023-05-20
-- name: WORRY
+#Expired On     : 2023-05-27
+- name: US LB
   type: vmess
   server: 104.17.3.81
   port: 80
   alterId: 0
   cipher: auto
-  uuid: 92ed5785-c5c3-455b-92ea-a6e1bbd0459f
+  uuid: 6fea1649-425b-4092-bf53-29792152c925
   udp: true
   tls: false
-  servername: w.eo7.tech
+  servername: us-lb.sshkit.org
   skip-cert-verify: true
   network: ws
   ws-opts:
-    path: /worryfree
+    path: /sshkit/awewe/646856787b296/
     headers:
-      Host: w.eo7.tech
+      Host: us-lb.sshkit.org
     interface-name: eth1
+#Expired On     : 2023-05-27
