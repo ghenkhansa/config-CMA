@@ -24,16 +24,16 @@ proxies:
   port: 80
   alterId: 0
   cipher: auto
-  uuid: 2cc4c960-f6cb-11ed-b138-205c6d5f5d78
+  uuid: 8da1a8fb-af7f-4158-99f8-17f6476e13f1
   udp: true
   tls: false
-  servername: sg-4.0rd.net
+  servername: sg1-mlb.securev2ray.com
   skip-cert-verify: true
   network: ws
   ws-opts:
-    path: /bj9tx314
+    path: /vmess
     headers:
-      Host: sg-4.0rd.net
+      Host: sg1-mlb.securev2ray.com
     interface-name: eth2
 #Expired On     : 2023-05-27
 - name: US LB
