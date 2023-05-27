@@ -1,6 +1,22 @@
-
 proxies:
-
+- name: VPN ID
+  type: vmess
+  server: 104.17.3.81
+  port: 80
+  alterId: 0
+  cipher: auto
+  uuid: d16445a0-fc70-11ed-b484-7296a96fae74
+  udp: true
+  tls: false
+  servername: www.tker.ml
+  skip-cert-verify: true
+  network: ws
+  ws-opts:
+    path: /kuota-habis
+    headers:
+      Host: www.tker.ml
+    interface-name: eth2
+#Expired On     : 2023-06-2
 - name: VPN SSHKIT
   type: vmess
   server: 104.17.3.81
@@ -24,16 +40,16 @@ proxies:
   port: 80
   alterId: 0
   cipher: auto
-  uuid: 8da1a8fb-af7f-4158-99f8-17f6476e13f1
+  uuid: 8bb07c55-0ef5-4d69-b131-fd9bab420ae8
   udp: true
   tls: false
-  servername: sg1-mlb.securev2ray.com
+  servername: 8fhq6a.aiossh.my.id
   skip-cert-verify: true
   network: ws
   ws-opts:
-    path: /vmess
+    path: /v2ray
     headers:
-      Host: sg1-mlb.securev2ray.com
+      Host: 8fhq6a.aiossh.my.id
     interface-name: eth2
 #Expired On     : 2023-06-2
 - name: SG OCEAN
