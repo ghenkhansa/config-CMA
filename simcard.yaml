@@ -1,20 +1,20 @@
 proxies:
-- name: VPN ID
+- name: VPN serverssh.net
   type: vmess
   server: 104.17.3.81
   port: 80
   alterId: 0
   cipher: auto
-  uuid: d16445a0-fc70-11ed-b484-7296a96fae74
+  uuid: bbcbaa2a-befe-45fa-a071-88504de396bb
   udp: true
   tls: false
-  servername: www.tker.ml
+  servername: sg1ray.serverip.my.id
   skip-cert-verify: true
   network: ws
   ws-opts:
-    path: /kuota-habis
+    path: /serverssh.net
     headers:
-      Host: www.tker.ml
+      Host: sg1ray.serverip.my.id
     interface-name: eth2
 #Expired On     : 2023-06-2
 - name: VPN SSHKIT
