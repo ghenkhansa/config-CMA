@@ -51,14 +51,14 @@ proxies:
     headers:
       Host: sg4.securev2ray.com
     interface-name: eth2
-#Expired On     : 2023-06-2
+#Expired On     : 2023-06-9
 - name: SG OCEAN
   type: vmess
   server: 104.17.3.81
   port: 80
   alterId: 0
   cipher: auto
-  uuid: b2e1db74-490a-40a9-9d0d-9bcc61be8c8e
+  uuid: d07596e1-b9dd-47d4-867c-4cc5145cd5b3
   udp: true
   tls: false
   servername: sg6.securev2ray.com
@@ -69,4 +69,4 @@ proxies:
     headers:
       Host: sg6.securev2ray.com
     interface-name: eth1
-#Expired On     : 2023-06-2
+#Expired On     : 2023-06-9
