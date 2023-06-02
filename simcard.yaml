@@ -40,16 +40,16 @@ proxies:
   port: 80
   alterId: 0
   cipher: auto
-  uuid: 8bb07c55-0ef5-4d69-b131-fd9bab420ae8
+  uuid: 860da8e5-718b-4f74-a578-074810fcc21d
   udp: true
   tls: false
-  servername: 8fhq6a.aiossh.my.id
+  servername: sg4.securev2ray.com
   skip-cert-verify: true
   network: ws
   ws-opts:
-    path: /v2ray
+    path: /vmess
     headers:
-      Host: 8fhq6a.aiossh.my.id
+      Host: sg4.securev2ray.com
     interface-name: eth2
 #Expired On     : 2023-06-2
 - name: SG OCEAN
