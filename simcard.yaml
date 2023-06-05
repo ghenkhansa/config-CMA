@@ -5,16 +5,16 @@ proxies:
   port: 80
   alterId: 0
   cipher: auto
-  uuid: bbcbaa2a-befe-45fa-a071-88504de396bb
+  uuid: 11255dd6-c36e-4bf9-ad5e-dfb228b09298
   udp: true
   tls: false
-  servername: sg1ray.serverip.my.id
+  servername: id-rysa-put-ra18n19xz.live
   skip-cert-verify: true
   network: ws
   ws-opts:
-    path: /serverssh.net
+    path: /vmess
     headers:
-      Host: sg1ray.serverip.my.id
+      Host: id-rysa-put-ra18n19xz.live
     interface-name: eth2
 #Expired On     : 2023-06-2
 - name: VPN SSHKIT
