@@ -1,22 +1,3 @@
-proxies:
-- name: VPN serverssh.net
-  type: vmess
-  server: 104.17.3.81
-  port: 80
-  alterId: 0
-  cipher: auto
-  uuid: 11255dd6-c36e-4bf9-ad5e-dfb228b09298
-  udp: true
-  tls: false
-  servername: id-rysa-put-ra18n19xz.live
-  skip-cert-verify: true
-  network: ws
-  ws-opts:
-    path: /vmess
-    headers:
-      Host: id-rysa-put-ra18n19xz.live
-    interface-name: eth2
-#Expired On     : 2023-06-2
 - name: VPN SSHKIT
   type: vmess
   server: 104.17.3.81
@@ -52,21 +33,27 @@ proxies:
       Host: sg4.securev2ray.com
     interface-name: eth2
 #Expired On     : 2023-06-9
-- name: SG OCEAN
+- name: SG MAYBI
   type: vmess
   server: 104.17.3.81
   port: 80
   alterId: 0
   cipher: auto
-  uuid: d07596e1-b9dd-47d4-867c-4cc5145cd5b3
+  uuid: 64a1be36-3295-4bb1-b371-0223c1c5a4fc
   udp: true
   tls: false
-  servername: sg6.securev2ray.com
+  servername: sg2-mlb.securev2ray.com
   skip-cert-verify: true
   network: ws
   ws-opts:
     path: /vmess
     headers:
-      Host: sg6.securev2ray.com
+      Host: sg2-mlb.securev2ray.com
     interface-name: eth1
 #Expired On     : 2023-06-9
+
+
+
+
+
+
