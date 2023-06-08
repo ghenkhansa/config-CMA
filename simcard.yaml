@@ -1,3 +1,4 @@
+proxies:
 - name: VPN SSHKIT
   type: vmess
   server: 104.17.3.81
