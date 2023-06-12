@@ -1,7 +1,7 @@
 proxies:
 - name: VPN SSHKIT
   type: vmess
-  server: 104.17.3.81
+  server: 104.18.1.196
   port: 80
   alterId: 0
   cipher: auto
@@ -18,7 +18,7 @@ proxies:
     interface-name: eth2
 - name: VPN SG Ocean
   type: vmess
-  server: 104.17.3.81
+  server: 104.18.1.196
   port: 80
   alterId: 0
   cipher: auto
@@ -36,7 +36,7 @@ proxies:
 #Expired On     : 2023-06-9
 - name: SG MAYBI
   type: vmess
-  server: 104.17.3.81
+  server: 104.18.1.196
   port: 80
   alterId: 0
   cipher: auto
