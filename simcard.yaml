@@ -33,14 +33,14 @@ proxies:
     headers:
       Host: sg6.securev2ray.com
     interface-name: eth2
-#Expired On     : 2023-06-9
+#Expired On     : 2023-06-25
 - name: SG MAYBI
   type: vmess
   server: 104.18.1.196
   port: 80
   alterId: 0
   cipher: auto
-  uuid: 64a1be36-3295-4bb1-b371-0223c1c5a4fc
+  uuid: 0dfa89a7-fe08-454e-817b-374097be358f
   udp: true
   tls: false
   servername: sg2-mlb.securev2ray.com
@@ -51,7 +51,7 @@ proxies:
     headers:
       Host: sg2-mlb.securev2ray.com
     interface-name: eth1
-#Expired On     : 2023-06-9
+#Expired On     : 2023-06-25
 
 
 
