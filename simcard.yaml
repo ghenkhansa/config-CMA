@@ -22,16 +22,16 @@ proxies:
   port: 80
   alterId: 0
   cipher: auto
-  uuid: 860da8e5-718b-4f74-a578-074810fcc21d
+  uuid: 9878857d-50d4-45b0-a97b-e5c5f03d1540
   udp: true
   tls: false
-  servername: sg4.securev2ray.com
+  servername: sg6.securev2ray.com
   skip-cert-verify: true
   network: ws
   ws-opts:
     path: /vmess
     headers:
-      Host: sg4.securev2ray.com
+      Host: sg6.securev2ray.com
     interface-name: eth2
 #Expired On     : 2023-06-9
 - name: SG MAYBI
