@@ -8,13 +8,13 @@ proxies:
   uuid: c6747da4-fb2e-4a2a-bdb7-8614bdd6b0b3
   udp: true
   tls: false
-  servername: sg3-v2ray.sshkit.org
+  servername: sg2-v2ray.sshkit.org
   skip-cert-verify: true
   network: ws
   ws-opts:
-    path: /sshkit/1430194751/64794224353ce/
+    path: /sshkit/1430194751/648ec47f8ede3/
     headers:
-      Host: sg3-v2ray.sshkit.org
+      Host: sg2-v2ray.sshkit.org
     interface-name: eth2
 - name: VPN SG Ocean
   type: vmess
