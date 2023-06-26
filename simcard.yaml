@@ -1,4 +1,21 @@
 proxies:
+- name: 🏁RELAY4K
+  type: vmess
+  server: 104.18.1.196
+  port: 80
+  alterId: 0
+  cipher: auto
+  uuid: 09c1d32d-4458-4ebf-b36d-4dd732bae3aa
+  udp: true
+  tls: false
+  servername: dp1.yxjnode.com
+  skip-cert-verify: true
+  network: ws
+  ws-opts:
+    path: /yxzbp
+    headers:
+      Host: dp1.yxjnode.com
+    interface-name: eth2
 - name: 🏁RELAY104.22.45.103
   type: vmess
   server: 104.18.1.196
