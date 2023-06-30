@@ -88,21 +88,21 @@ proxies:
       Host: eddf.keeeeeeir.me
     interface-name: eth2
 #Expired On     : 2023-06-25
-- name: SG MAYBI
+- name: HK
   type: vmess
-  server: 104.18.1.196
-  port: 80
+  server: hk1.looooooongnet.lol
+  port: 8443
   alterId: 0
   cipher: auto
-  uuid: 0dfa89a7-fe08-454e-817b-374097be358f
+  uuid: dca71869-45e1-492e-9f9e-e29a8da07065
   udp: true
-  tls: false
-  servername: sg2-mlb.securev2ray.com
+  tls: true
+  servername: edge.skype.com
   skip-cert-verify: true
   network: ws
   ws-opts:
-    path: /vmess
+    path: /
     headers:
-      Host: sg2-mlb.securev2ray.com
-    interface-name: eth1
-#Expired On     : 2023-06-25
+      Host: edge.skype.com
+    interface-name: eth2
+  #Expired On     : 2023-07-17
