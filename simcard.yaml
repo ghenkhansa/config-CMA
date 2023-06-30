@@ -1,21 +1,23 @@
 proxies:
 - name: 🇸🇬RELAYnexsusvpn.me
+- name: 🇸🇬RELAY
   type: vmess
   server: 104.18.1.196
   port: 80
   alterId: 0
   cipher: auto
-  uuid: ccf8f0cb-8b48-4335-8150-9a2eecd3315b
+  uuid: 2983f30e-3bb9-4816-98a7-4373d431e52b
   udp: true
   tls: false
-  servername: linode-dx.nexsusvpn.me
+  servername: aiiyx.slowdns1.my.id
   skip-cert-verify: true
   network: ws
   ws-opts:
     path: /vmess
     headers:
-      Host: linode-dx.nexsusvpn.me
+      Host: aiiyx.slowdns1.my.id
     interface-name: eth2
+ #Expired On     : 2023-07-9
 - name: 🏁RELAY4K
   type: vmess
   server: 104.18.1.196
