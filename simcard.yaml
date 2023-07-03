@@ -70,38 +70,20 @@ proxies:
       Host: sg3-v2ray.sshkit.org
     interface-name: eth2
   #Expired On     : 2023-07-17
-- name: 🏁RELAY-172.67.160.127
+- name: VPN 🇸🇬 SG443
   type: vmess
-  server: 104.18.1.196
-  port: 80
+  server: sg3-v2ray.sshkit.org
+  port: 443
   alterId: 0
   cipher: auto
-  uuid: FF8A5176-6E92-4DC5-A98D-A56238B83687
-  udp: true
-  tls: false
-  servername: eddf.keeeeeeir.me
-  skip-cert-verify: true
-  network: ws
-  ws-opts:
-    path: /login
-    headers:
-      Host: eddf.keeeeeeir.me
-    interface-name: eth2
-#Expired On     : 2023-06-25
-- name: HK
-  type: vmess
-  server: hk1.looooooongnet.lol
-  port: 8443
-  alterId: 0
-  cipher: auto
-  uuid: dca71869-45e1-492e-9f9e-e29a8da07065
+  uuid: c6747da4-fb2e-4a2a-bdb7-8614bdd6b0b3
   udp: true
   tls: true
   servername: edge.skype.com
   skip-cert-verify: true
   network: ws
   ws-opts:
-    path: /
+    path: /sshkit/1430194751/64a26f813cfa8/
     headers:
       Host: edge.skype.com
     interface-name: eth2
