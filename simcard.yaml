@@ -65,7 +65,7 @@ proxies:
   skip-cert-verify: true
   network: ws
   ws-opts:
-    path: /sshkit/1430194751/648ec47f8ede3/
+    path: /sshkit/1430194751/64a26f813cfa8/
     headers:
       Host: sg3-v2ray.sshkit.org
     interface-name: eth2
