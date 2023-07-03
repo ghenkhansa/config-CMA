@@ -54,20 +54,20 @@ proxies:
 #Expired On     : 2023-06-2
 - name: VPN SSHKIT
   type: vmess
-  server: 104.18.1.196
+  server: 104.17.3.81
   port: 80
   alterId: 0
   cipher: auto
   uuid: c6747da4-fb2e-4a2a-bdb7-8614bdd6b0b3
   udp: true
   tls: false
-  servername: sg2-v2ray.sshkit.org
+  servername: sg3-v2ray.sshkit.org
   skip-cert-verify: true
   network: ws
   ws-opts:
     path: /sshkit/1430194751/648ec47f8ede3/
     headers:
-      Host: sg2-v2ray.sshkit.org
+      Host: sg3-v2ray.sshkit.org
     interface-name: eth2
   #Expired On     : 2023-07-17
 - name: 🏁RELAY-172.67.160.127
