@@ -23,16 +23,16 @@ proxies:
   port: 80
   alterId: 0
   cipher: auto
-  uuid: 09c1d32d-4458-4ebf-b36d-4dd732bae3aa
+  uuid: a4bb7f93-cee6-43d7-b2dd-fa9c70b88233
   udp: true
   tls: false
-  servername: dp1.yxjnode.com
+  servername: dl.v001sssv.pw
   skip-cert-verify: true
   network: ws
   ws-opts:
-    path: /yxzbp
+    path: /
     headers:
-      Host: dp1.yxjnode.com
+      Host: dl.v001sssv.pw
     interface-name: eth2
 - name: 🏁RELAY104.22.45.103
   type: vmess
