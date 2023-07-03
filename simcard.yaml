@@ -5,16 +5,16 @@ proxies:
   port: 80
   alterId: 0
   cipher: auto
-  uuid: 2983f30e-3bb9-4816-98a7-4373d431e52b
+  uuid: a5756853-4a80-468a-af62-10565918f58f
   udp: true
   tls: false
-  servername: aiiyx.slowdns1.my.id
+  servername: ssrsub.v03.ssrsub.com
   skip-cert-verify: true
   network: ws
   ws-opts:
-    path: /vmess
+    path: /api/v3/download.getFile
     headers:
-      Host: aiiyx.slowdns1.my.id
+      Host: ssrsub.v03.ssrsub.com
     interface-name: eth2
  #Expired On     : 2023-07-9
 - name: 🏁RELAY4K
