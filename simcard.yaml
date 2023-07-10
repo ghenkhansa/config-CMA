@@ -89,7 +89,7 @@ proxies:
       Host: sg2-v2ray.sshkit.org
     interface-name: eth2
   #Expired On     : 2023-07-17
-- name: 🇸🇬RELAY
+- name: 🇸🇬RELAY-SSRSUB
   type: vmess
   server: 104.18.1.196
   port: 80
