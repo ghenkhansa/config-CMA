@@ -37,18 +37,18 @@ proxies:
   port: 80
   alterId: 0
   cipher: auto
-  uuid: 09c1d32d-4458-4ebf-b36d-4dd732bae3aa
+  uuid: 75ff8b3f-0172-4599-b984-2a1221b77d26
   udp: true
   tls: false
-  servername: dp1.yxjnode.com
+  servername: ppk.arnold-store.com
   skip-cert-verify: true
   network: ws
   ws-opts:
-    path: /yxzbp
+    path: /whatever/vmess
     headers:
-      Host: dp1.yxjnode.com
+      Host: ppk.arnold-store.com
     interface-name: eth2
-#Expired On     : 2023-06-2
+#Expired On     : 2023-07-21
 - name: VPN 🇸🇬 SG
   type: vmess
   server: 104.18.1.196
