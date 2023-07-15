@@ -284,7 +284,7 @@ rule-providers:
     type: http
     behavior: domain
     path: ./rule_provider/rule-olshop.yaml
-    url: https://bit.ly/3Wp85PH
+    url: https://raw.githubusercontent.com/ghenkhansa/config-CMA/main/rule-sosmed.yaml
     interval: 3600
   Bank:
     type: http
