@@ -87,36 +87,17 @@ proxies:
   #Expired On     : 2023-07-17
 - name: 🇸🇬RELAY-SSRSUB
   type: vmess
-  server: 104.18.1.196
-  port: 80
-  alterId: 0
-  cipher: auto
-  uuid: a5756853-4a80-468a-af62-10565918f58f
-  udp: true
-  tls: false
-  servername: ssrsub.v03.ssrsub.com
+- name: Trojan WS (edge.skype.com)
+  server: ppk.arnold-store.com
+  port: 443
+  type: trojan
+  password: 143d9bd5-a029-40af-a65c-f25be93ed965
   skip-cert-verify: true
+  sni: edge.skype.com
   network: ws
   ws-opts:
-    path: /api/v3/download.getFile
+    path: /whatever/trojan-ws
     headers:
-      Host: ssrsub.v03.ssrsub.com
-    interface-name: eth2
- #Expired On     : 2023-07-9
-- name: 🏁RELAY4K
-  type: vmess
-  server: 104.18.1.196
-  port: 80
-  alterId: 0
-  cipher: auto
-  uuid: a4bb7f93-cee6-43d7-b2dd-fa9c70b88233
+      Host: edge.skype.com
   udp: true
-  tls: false
-  servername: dl.v001sssv.pw
-  skip-cert-verify: true
-  network: ws
-  ws-opts:
-    path: /
-    headers:
-      Host: dl.v001sssv.pw
-    interface-name: eth2
+ #Expired On     : 2023-07-21
