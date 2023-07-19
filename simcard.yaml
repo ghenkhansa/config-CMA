@@ -85,19 +85,3 @@ proxies:
       Host: sg2-v2ray.sshkit.org
     interface-name: eth2
   #Expired On     : 2023-07-17
-- name: 🇸🇬RELAY-SSRSUB
-  type: vmess
-- name: Trojan WS (edge.skype.com)
-  server: ppk.arnold-store.com
-  port: 443
-  type: trojan
-  password: 143d9bd5-a029-40af-a65c-f25be93ed965
-  skip-cert-verify: true
-  sni: edge.skype.com
-  network: ws
-  ws-opts:
-    path: /whatever/trojan-ws
-    headers:
-      Host: edge.skype.com
-  udp: true
- #Expired On     : 2023-07-21
