@@ -33,7 +33,7 @@ proxies:
 #Expired On     : 2023-07-9
 - name: 🏁RELAY104.22.45.103
   type: vmess
-  server: 104.18.1.196
+  server: 104.18.0.196
   port: 80
   alterId: 0
   cipher: auto
@@ -51,7 +51,7 @@ proxies:
 #Expired On     : 2023-07-21
 - name: VPN 🇸🇬 SG
   type: vmess
-  server: 104.18.1.196
+  server: 104.18.0.196
   port: 80
   alterId: 0
   cipher: auto
