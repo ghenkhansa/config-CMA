@@ -15,21 +15,21 @@ proxies:
     headers:
       Host: sg-4.0rd.net
     interface-name: eth2
-- name: 🇸🇬OPENTUNEL
+- name: 🇸🇬FAS US
   type: vmess
   server: 104.18.1.196
   port: 80
   alterId: 0
   cipher: auto
-  uuid: a40d34c6-b77c-4648-9210-3e8d2f4226b5
+  uuid: 45545c80-276c-11ee-b434-205c6d5f5d78
   tls: false
-  servername: sgv-6.openv2ray.com
+  servername: us-1.0rd.net
   skip-cert-verify: true
   network: ws
   ws-opts:
-    path: /opentunnel?user=opentunnel.net-openvmes
+    path: /78enrxdw
     headers:
-      Host: sgv-6.openv2ray.com
+      Host: us-1.0rd.net
     interface-name: eth2
 - name: Trojan WS (edge.skype.com)
   server: ppk.arnold-store.com
