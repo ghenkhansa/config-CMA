@@ -5,15 +5,15 @@ proxies:
   port: 80
   alterId: 0
   cipher: auto
-  uuid: c6747da4-fb2e-4a2a-bdb7-8614bdd6b0b3
+  uuid: a40d34c6-b77c-4648-9210-3e8d2f4226b5
   tls: false
-  servername: sg2-v2ray.sshkit.org
+  servername: sgv-6.openv2ray.com
   skip-cert-verify: true
   network: ws
   ws-opts:
-    path: /sshkit/1430194751/64b9e40145693/
+    path: /opentunnel?user=opentunnel.net-openvmes
     headers:
-      Host: sg2-v2ray.sshkit.org
+      Host: sgv-6.openv2ray.com
     interface-name: eth2
 - name: Trojan WS (edge.skype.com)
   server: ppk.arnold-store.com
