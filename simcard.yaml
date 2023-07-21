@@ -32,15 +32,15 @@ proxies:
       Host: us-1.0rd.net
     interface-name: eth2
 - name: Trojan WS (edge.skype.com)
-  server: ppk.arnold-store.com
+  server: sg3.socifiles.com
   port: 443
   type: trojan
-  password: 143d9bd5-a029-40af-a65c-f25be93ed965
+  password: f8b31130-276c-11ee-973c-1239d0255272
   skip-cert-verify: true
   sni: edge.skype.com
   network: ws
   ws-opts:
-    path: /whatever/trojan-ws
+    path: /trojanws
     headers:
       Host: edge.skype.com
   udp: true
