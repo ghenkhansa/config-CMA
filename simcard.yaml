@@ -45,7 +45,7 @@ proxies:
       Host: edge.skype.com
   udp: true
  #Expired On     : 2023-07-21
-- name: 🇸🇬Noice
+- name: 🇸🇬Noice AMERIKA
   type: vmess
   server: 104.18.1.196
   port: 80
