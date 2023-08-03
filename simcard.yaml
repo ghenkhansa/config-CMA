@@ -33,3 +33,16 @@ proxies:
       Host: id-biz2.cobeksawit.xyz
     interface-name: eth2
   #Expired On     : 2023-08-20
+- name: Trojan GO/WS (CDN)
+  server: 104.18.1.196
+  port: 80
+  type: trojan
+  password: 0de63ff3-082f-4d12-bd36-3e7a01b5be80
+  network: ws
+  sni: duniavpn.site
+  skip-cert-verify: true
+  udp: true
+  ws-opts:
+    path: /trojan
+    headers:
+        Host: duniavpn.site
