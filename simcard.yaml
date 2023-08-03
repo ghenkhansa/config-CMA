@@ -5,16 +5,16 @@ proxies:
   port: 80
   alterId: 0
   cipher: auto
-  uuid: dc0befa3-6319-4434-8840-1735ad78088b
+  uuid: a6d2d56c-46ee-4ed7-abec-fe28ddf6e8c1
   udp: true
   tls: false
-  servername: gcp.singapore.vip-cloud.xyz
+  servername: amazon.duniavpn.org
   skip-cert-verify: true
   network: ws
   ws-opts:
-    path: /v2ray
+    path: /vmess
     headers:
-      Host: gcp.singapore.vip-cloud.xyz
+      Host: amazon.duniavpn.org
 - name: IDON ðŸ‡¸ðŸ‡¬ BizNet
   type: vmess
   server: 104.18.1.196
